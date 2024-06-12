@@ -1,0 +1,54 @@
+body {
+    background-color: Gainsboro; font-family: Arial, sans-serif;
+}
+
+h2 {
+    padding: 3px; background-color: LightSkyBlue;
+}
+
+img{
+    width: 25px; padding-right: 5px; float: left; 
+}
+
+.navbar {
+    list-style-type: none; 
+    margin: 0px; 
+    background: LightSkyBlue;
+
+    
+}
+
+ul.navbar li {
+    display: inline; margin: 0px 10px 0px 10px;
+    font-weight: bold;
+    
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: green;
+}
+
+.navbar-content{
+    overflow: hidden;
+     position: fixed; 
+     top: 0; 
+     width: 100%;
+     margin: 2px;
+}
+
+/* .main-content {
+
+} */
